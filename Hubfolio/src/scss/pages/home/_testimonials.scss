@@ -1,0 +1,220 @@
+#testimonials {
+    padding: 140px 0;
+    position: relative;
+    overflow: hidden;
+    font-family: "inter";
+
+    .tes_start {
+        .sub_head_right {
+            h2 {
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 1.4;
+                color: #ffffff;
+
+                span {
+                    color: #8e8e8e;
+                }
+            }
+
+            .custom_about {
+                width: max-content;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 60px;
+                padding: 10px 20px;
+                margin-top: 60px;
+                align-items: center;
+                display: flex;
+
+                .cont {
+                    padding-left: 30px;
+
+                    h3 {
+                        display: flex;
+                        line-height: 1;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #ffffff;
+                        align-items: center;
+
+                        span {
+
+                            .star {
+                                font-size: 13px;
+                                color: #EF2B10;
+                                margin-left: 10px;
+
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                        opacity: .7;
+                        margin-top: 2px;
+                        color: #8e8e8e;
+                        font-weight: 400;
+                    }
+                }
+
+
+            }
+
+        }
+        .sub_head {
+            ul {padding-left: 25px;
+                li {
+                    list-style: disc;
+                    color: #ffffff;
+                    font-size: 20px;
+                    
+                }
+            }
+            
+        }
+
+        .carousel-inner {
+            width: 30%;
+
+            .active {
+                background: #212121;
+                padding: 40px;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+            }
+        }
+
+        .contact_slider {
+            margin-top: 100px;
+            .cards {
+                position: relative;
+                width: 100%;
+                height: 547.6px;
+                padding: 49px;
+                border-radius: 10px;
+                background-color: #212121;
+
+                .cont {
+
+                    h3 {
+                        letter-spacing: -1px;
+                        display: flex;
+                        line-height: 1.4;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #ffffff;
+                        align-items: center;
+
+                        span {
+
+                            .star {
+                                font-size: 13px;
+                                color: #EF2B10;
+                                margin-left: 10px;
+
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                        opacity: .7;
+                        margin-top: 2px;
+                        color: #8e8e8e;
+                        font-weight: 400;
+                    }
+                }
+                .cards_bottom {
+                    display: flex;
+                    flex-direction: column;
+                    height: -webkit-fill-available;
+
+                    .cards_text {
+                    margin-top: 30px;
+
+                    h4 {
+                        color: #ffffff;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 1.4;
+                    }
+                    @media (max-width: 992px) {
+                        h4 {
+                          font-size: 19px;
+                        }
+                      }
+                }
+
+                .cont_status {
+                    position: absolute;
+                    bottom: 40px;
+                    display: flex;
+                    margin-top: 40px;
+                    padding-top: 30px;
+                    border-top: 1px solid rgba(255, 255, 255, 0.15);
+                    align-items: center;
+                    .cont_info {
+                        .p_image {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            margin-right: 15px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .cont_text {
+                        span {
+                            color: #ffffff;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            opacity: .7;
+                            font-weight: 400;
+                            color: #8e8e8e;
+                        }
+                    }
+                }
+                }
+                
+
+            }
+        }
+
+
+    }
+
+    .blue_background {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(/Hubfolio/src/assets/mesh-gradient.png);
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        pointer-events: none;
+        opacity: .5;
+        z-index: 2;
+    }
+
+
+
+
+
+
+
+
+
+}
