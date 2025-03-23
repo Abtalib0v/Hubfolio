@@ -1,39 +1,78 @@
 footer {
     padding: 140px 12px 80px 12px;
-    background-color: #212121;
     font-family: "inter";
 
     .footer {
         margin-bottom: 140px;
 
-        .blog_text {
-            margin-bottom: 100px;
-            font-family: "inter";
+        .footer_top {
+            margin-bottom: 80px;
+            text-align: center;
 
-            .sub_head_right {
-                h2 {
-                    font-size: 36px;
-                    font-weight: 400;
-                    line-height: 1.4;
+            h2 {
+                font-size: 100px;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 1;
+                position: relative;
+                letter-spacing: -3px;
+
+                a {
+                    text-decoration: none;
                     color: #ffffff;
-                    letter-spacing: -2px;
+                    display: flex;
+                    flex-direction: column;
+                }
 
-                    span {
-                        color: #8e8e8e;
+                .circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 210px;
+                    height: 210px;
+                    border-radius: 50%;
+                    background: #d0ff71;
+                    position: absolute;
+                    top: -80px;
+                    right: 8%;
+                    font-size: 32px;
+                    color: #212121;
+
+                    a {
+                        color: #212121;
+
+                        .span_up {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+                @media (max-width: 768px) {
+                    .circle {
+                        display: none;
                     }
                 }
             }
+
+            @media (max-width: 768px) {
+                h2 {
+                    font-size: 35px;
+                    line-height: 1.4;
+                }
+            }
         }
+
         .number {
             display: flex;
             justify-content: end;
         }
+
         @media (max-width: 768px) {
             .number {
                 display: flex;
                 justify-content: start;
             }
-          }
+        }
+
         .item {
             margin-bottom: 50px;
 
@@ -76,6 +115,7 @@ footer {
 
     .sub_left {
         margin-bottom: 30px;
+
         p {
             font-size: 14px;
             color: #8e8e8e;
@@ -103,6 +143,7 @@ footer {
             line-height: 28px;
             font-weight: 400;
         }
+
         #active {
             font-size: 14px;
             text-decoration: none;
