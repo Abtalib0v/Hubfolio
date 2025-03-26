@@ -6,7 +6,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-	max-width: 100%;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -35,9 +34,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 28px;
-	background-color: #151515;
-	background-image: url(/Hubfolio/src/assets/stars.svg);
+	background-color: #0e0f11;
+	font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
 	
 }
 html, body {

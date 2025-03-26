@@ -1,19 +1,31 @@
 header {
-    .head_left {
-        h1 {
-            font-size: 55px;
-            text-indent: 20%;
-            letter-spacing: -3px;
-            font-weight: 500;
-            line-height: 1.2;
+    .header {
+        
+        
+        .header_box {
+            padding-top: 140px;
+        padding-bottom: 140px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            .head_left {
+            h1 {
+                font-size: 55px;
+                text-indent: 20%;
+                letter-spacing: -2px;
+                font-weight: 500;
+                line-height: 1.2;
+            }
         }
+
+        .head_right {
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #a4a4a4;
+                letter-spacing: 0.5px;
+            }
+        }
+        }
+        
     }
 
-    .head_right {
-        p {
-            font-size: 16px;
-            font-weight: 400;
-            color: #a4a4a4;
-        }
-    }
 }
