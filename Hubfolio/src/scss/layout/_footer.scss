@@ -1,0 +1,171 @@
+footer {
+    
+    font-family: "inter";
+
+    .footer {
+        margin-bottom: 140px;
+
+        .footer_box {
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 140px 12px 80px 12px;
+
+            .footer_top {
+                margin-bottom: 80px;
+                text-align: center;
+
+
+                h2 {
+                    font-size: 100px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    line-height: 1;
+                    position: relative;
+                    letter-spacing: -3px;
+
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .circle {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 210px;
+                        height: 210px;
+                        border-radius: 50%;
+                        background: #d0ff71;
+                        position: absolute;
+                        top: -80px;
+                        right: 8%;
+                        font-size: 32px;
+                        color: #212121;
+
+                        a {
+                            color: #212121;
+
+                            .span_up {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+
+                    @media (max-width: 768px) {
+                        .circle {
+                            display: none;
+                        }
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    h2 {
+                        font-size: 35px;
+                        line-height: 1.4;
+                    }
+                }
+            }
+
+            .number {
+                display: flex;
+                justify-content: end;
+            }
+
+            @media (max-width: 768px) {
+                .number {
+                    display: flex;
+                    justify-content: start;
+                }
+            }
+
+            .item {
+                margin-bottom: 50px;
+
+                h1 {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    color: #8e8e8e;
+                }
+
+                p {
+                    color: #8e8e8e;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .social_icons {
+                a {
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    line-height: 48px;
+                    text-align: center;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border-radius: 50%;
+                    font-size: 14px;
+                    transition: all .4s;
+                    color: #ffffff;
+                    text-decoration: none;
+
+                    &:hover {
+                        border: 1px solid #ffffff;
+                    }
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .sub_group {
+        padding-top: 50px;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+        .sub_left {
+
+            p {
+                font-size: 14px;
+                color: #8e8e8e;
+                font-weight: 400;
+
+                a {
+                    color: #ffffff;
+                    text-decoration: none
+                }
+
+                ;
+            }
+        }
+
+        .sub_links {
+            display: flex;
+            justify-content: space-between;
+
+
+
+            a {
+                font-size: 14px;
+                text-decoration: none;
+                color: #8e8e8e;
+                line-height: 28px;
+                font-weight: 400;
+            }
+
+            #active {
+                font-size: 14px;
+                text-decoration: none;
+                color: #ffffff;
+                line-height: 28px;
+                font-weight: 400;
+            }
+        }
+    }
+
+
+
+}
