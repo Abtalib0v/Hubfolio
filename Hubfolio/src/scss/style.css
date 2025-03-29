@@ -287,199 +287,107 @@ nav .navbar_hero .left_right .nav_right a i {
   }
 }
 
-#brend {
+#grid {
   font-family: "inter";
-  padding-top: 140px;
+  padding: 140px 0 100px 0;
 }
-#brend .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: 80px;
+#grid .text {
+  text-align: center;
+  padding-bottom: 140px;
 }
-#brend .title ul {
-  margin-bottom: 10px;
-  padding-left: 25px;
-  color: #ffffff;
-}
-#brend .title ul li {
-  list-style: disc;
-  font-size: 18px;
-}
-#brend .title h1 {
-  font-size: 80px;
+#grid .text h1 {
+  font-size: 90px;
   font-weight: 600;
+  text-transform: uppercase;
   letter-spacing: -1px;
   line-height: 1.2;
   color: #ffffff;
-  text-align: center;
 }
 @media (max-width: 768px) {
-  #brend .title h1 {
-    font-size: 40px;
-    letter-spacing: 1px;
+  #grid .text h1 {
+    font-size: 45px;
   }
 }
-#brend .info {
-  margin-bottom: 80px;
+#grid .text .link {
+  margin-top: 15px;
 }
-#brend .info .item {
-  text-align: center;
+#grid .text .link span {
+  margin: 0 10px;
+  display: inline-block;
 }
-#brend .info .item span {
-  opacity: 0.8;
+#grid .text .link span a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
-  color: #fff;
-  margin-bottom: 10px;
+}
+#grid .text .link span img {
+  width: 18px;
+  height: auto;
+  fill: 2;
+}
+#grid .text .link .left_span {
+  color: #d0ff71;
+}
+#grid .works .cards {
+  display: flex;
+  flex-direction: column;
+  height: 418.43px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 40px;
+}
+#grid .works .cards .cards_text {
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+#grid .works .cards .cards_text .text_left {
+  color: #ffffff;
+}
+#grid .works .cards .cards_text .text_left h1 {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 28px;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+#grid .works .cards .cards_text .text_left span {
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
   display: inline-block;
 }
-#brend .info .item h2 {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #fff;
+#grid .works .cards .cards_text .text_right {
+  margin-left: auto;
 }
-@media (max-width: 768px) {
-  #brend .info .item {
-    margin-bottom: 30px;
-  }
+#grid .works .cards .cards_text .text_right a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 25px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.4s;
 }
-#brend .fit_image {
-  height: 620px;
+#grid .works .cards .cards_text .text_right a img {
+  width: 11px;
+}
+#grid .works .cards .image {
+  border-radius: 10px;
   overflow: hidden;
-  border-radius: 15px;
+  margin-top: 50px;
 }
-#brend .fit_image img {
-  translate: none;
-  rotate: none;
-  scale: none;
-  will-change: transform;
+#grid .works .cards .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 992px) {
-  #brend .fit_image {
-    height: 400px;
-  }
-}
-
-#overview {
-  padding: 140px 0;
-  font-family: "inter";
-}
-#overview .overview .text_left h2 {
-  font-size: 48px;
-  letter-spacing: -3px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #ffffff;
-}
-#overview .overview .content .text {
-  margin: 30px 0;
-}
-#overview .overview .content .text p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #a4a4a4;
-  line-height: 1.4;
-}
-#overview .overview .content .text_btm .text_li {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  font-weight: 400;
-  line-height: 1.4;
-  font-size: 18px;
-  color: #ffffff;
-}
-#overview .overview .content .text_btm .text_li_btm {
-  font-weight: 400;
-  line-height: 1.4;
-  font-size: 18px;
-  color: #ffffff;
-}
-#overview .images {
-  margin-top: 80px;
-}
-#overview .pro_making {
-  margin-top: 80px;
-}
-#overview .pro_making .content h3 {
-  font-size: 40px;
-  letter-spacing: -2px;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #ffffff;
-}
-#overview .pro_making .content p {
-  margin-top: 30px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #a4a4a4;
-  line-height: 1.4;
-}
-#overview .pro_making .accordion {
-  color: #d0ff71;
-}
-#overview .pro_making .accordion .accordion-item {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-}
-#overview .pro_making .accordion .accordion-item .accordion-header {
-  background: transparent;
-  margin-bottom: 0;
-}
-#overview .pro_making .accordion .accordion-item .accordion-header h2 {
-  font-size: 48px;
-  letter-spacing: -3px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-#overview .pro_making .accordion .accordion-item .accordion-header button {
-  background: transparent;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 28px;
-  padding: 15px 0;
-  box-shadow: none;
-}
-#overview .pro_making .accordion .accordion-item .accordion-header button span {
-  font-size: 14px;
-  margin-right: 80px;
-  display: inline-block;
-}
-#overview .pro_making .accordion .accordion-item:last-of-type > .accordion-collapse {
-  color: #d0ff71;
-}
-#overview .pro_making .accordion .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-  color: #d0ff71;
-}
-#overview .pro_making .accordion .accordion-item:first-of-type .accordion-button::after {
-  width: 0;
-}
-#overview .pro_making .accordion .accordion-item:first-of-type .accordion-button:not(.collapsed)::after {
-  width: 0;
-}
-#overview .pro_making .accordion .accordion-item:last-of-type .accordion-header .accordion-button.collapsed {
-  color: #ffffff;
-}
-#overview .pro_making .accordion .accordion-item .accordion-body {
-  padding: 0 0 15px 90px;
-}
-#overview .pro_making .accordion .accordion-item .accordion-body p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #a4a4a4;
-}
-#overview .pro_making .accordion .accordion-item {
+#grid .works .cards:hover a {
+  background: #d0ff71;
   border-color: #d0ff71;
 }
 
